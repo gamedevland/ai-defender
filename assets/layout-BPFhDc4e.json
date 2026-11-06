@@ -30,13 +30,13 @@
           "field": {
             "type": "Graphics"
           },
-          "enemyGlitches": {
+          "enemyBodies": {
             "type": "Container",
             "components": { "view": { "type": "EnemyGlitch" } }
           },
-          "dock": {
-            "type": "Graphics"
-          }
+          "combatFx": { "type": "Graphics" },
+          "dock": { "type": "Graphics" },
+          "dockAgents": { "type": "Graphics" }
         }
       },
       "hud": {
@@ -49,6 +49,9 @@
         },
         "children": {
           "panels": {
+            "type": "Graphics"
+          },
+          "coreNoise": {
             "type": "Graphics"
           },
           "level": {

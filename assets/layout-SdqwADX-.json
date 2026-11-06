@@ -120,6 +120,31 @@
               "plate": {
                 "type": "Graphics"
               },
+              "radarContacts": {
+                "type": "Container"
+              },
+              "lockedSignal": {
+                "type": "Container",
+                "children": {
+                  "noise": { "type": "Graphics" },
+                  "echo": {
+                    "type": "Text",
+                    "props": {
+                      "anchor": { "x": 0.5, "y": 0.5 },
+                      "text": "SIGNAL LOCKED",
+                      "style": { "fontFamily": "Oxanium, sans-serif", "fontSize": 16, "fontWeight": "700", "fill": "#ff526d" }
+                    }
+                  },
+                  "title": {
+                    "type": "Text",
+                    "props": {
+                      "anchor": { "x": 0.5, "y": 0.5 },
+                      "text": "SIGNAL LOCKED",
+                      "style": { "fontFamily": "Oxanium, sans-serif", "fontSize": 16, "fontWeight": "700", "fill": "#e4f5ff" }
+                    }
+                  }
+                }
+              },
               "heading": {
                 "type": "Text",
                 "props": {
