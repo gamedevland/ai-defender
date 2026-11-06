@@ -1,0 +1,57 @@
+{
+  "platform": "web",
+  "sourceBase": "eebe881d50c8607b5b3207a0c71a6ab92cf06fb1",
+  "sourceTreeSha256": "75886a4e7a53db75b099341ff0c65f904bd05b5d81083177bf8bd114b0b95de4",
+  "files": [
+    {
+      "path": "assets/Oxanium-Bold-SRwg9Uhv.woff2",
+      "bytes": 7116,
+      "sha256": "a229515560f46b90f402fba920805d9d65455637d7ef75b1ec20ed7f737a54b5"
+    },
+    {
+      "path": "assets/fault-DF_Mk1zj.mp3",
+      "bytes": 4656,
+      "sha256": "7fd8cfac055f45969ffaac860c5fbe3c5f1429111602f9f76aa3056c55a623e2"
+    },
+    {
+      "path": "assets/index-BG8d2K8_.js",
+      "bytes": 1268497,
+      "sha256": "c4ace0b5d61ce354ede2c3cd57885b11b13b880b204b729239138b288554ece4"
+    },
+    {
+      "path": "assets/layout-BuEoVT0l.json",
+      "bytes": 22910,
+      "sha256": "5825e9e9e62c3ce9c02754916056989703638e4aff66da697e8bc7ef5d1bc28b"
+    },
+    {
+      "path": "assets/layout-CgRhhCLo.json",
+      "bytes": 49418,
+      "sha256": "d2a451c5a2cfc8c57d5bb791acd0fb032e8fa6b7b9e175df8d3f45cdc4877084"
+    },
+    {
+      "path": "assets/music-Bwg2Hfv0.mp3",
+      "bytes": 1818539,
+      "sha256": "6b4af91360863f2a8a69b270e3b9a7973e3af7ab713907ea378002575a3cc4cb"
+    },
+    {
+      "path": "assets/waves-BgGNpUYT.json",
+      "bytes": 241829,
+      "sha256": "5bdf1141769d763f44f17c50339c52069cb3fda8f4bc78c440b2081ea1d56914"
+    },
+    {
+      "path": "index.html",
+      "bytes": 630,
+      "sha256": "55dfbb5421345acc30ba0e4e25e9d7c253a7992656170bf54db724cbc67635f9"
+    },
+    {
+      "path": "licenses/Kenney-audio.txt",
+      "bytes": 258,
+      "sha256": "b926224f4d26df1a6e568b8c5533f8d30d989464f6224d5b1a6304ab4b6353af"
+    },
+    {
+      "path": "licenses/Oxanium-OFL.txt",
+      "bytes": 4384,
+      "sha256": "fe17c0f2581d71b4e1ea7e636e7f4877c29223e11bb1dd1a871e8c3f2a86336b"
+    }
+  ]
+}
