@@ -30,9 +30,9 @@
           "field": {
             "type": "Graphics"
           },
-          "hitGlitches": {
+          "enemyGlitches": {
             "type": "Container",
-            "components": { "view": { "type": "EnemyHitGlitch" } }
+            "components": { "view": { "type": "EnemyGlitch" } }
           },
           "dock": {
             "type": "Graphics"
