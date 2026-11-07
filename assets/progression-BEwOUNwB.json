@@ -77,18 +77,18 @@
   "agents": [
     {
       "id": "sentinel",
-      "name": "Interceptor",
-      "role": "Precision pulses",
+      "name": "agent.sentinel.name",
+      "role": "agent.sentinel.role",
       "modules": [
         {
-          "name": "Packet Piercer",
-          "detail": "One extra target per shot",
+          "name": "module.sentinel.0.name",
+          "detail": "module.sentinel.0.detail",
           "effect": "pierce",
           "value": 1
         },
         {
-          "name": "Pulse Drive",
-          "detail": "Attack interval −8%",
+          "name": "module.sentinel.1.name",
+          "detail": "module.sentinel.1.detail",
           "effect": "period",
           "value": 0.08
         }
@@ -96,18 +96,18 @@
     },
     {
       "id": "scanner",
-      "name": "Scanner",
-      "role": "Focused tracking beam",
+      "name": "agent.scanner.name",
+      "role": "agent.scanner.role",
       "modules": [
         {
-          "name": "Beam Focus",
-          "detail": "Damage per beam tick +12%",
+          "name": "module.scanner.0.name",
+          "detail": "module.scanner.0.detail",
           "effect": "damage",
           "value": 0.12
         },
         {
-          "name": "Target Lock",
-          "detail": "Beam duration +0.20 s",
+          "name": "module.scanner.1.name",
+          "detail": "module.scanner.1.detail",
           "effect": "beamTime",
           "value": 0.2
         }
@@ -115,18 +115,18 @@
     },
     {
       "id": "quarantine",
-      "name": "Quarantine",
-      "role": "Slows incoming threats",
+      "name": "agent.quarantine.name",
+      "role": "agent.quarantine.role",
       "modules": [
         {
-          "name": "Isolation",
-          "detail": "Direct slow lasts +0.40 s",
+          "name": "module.quarantine.0.name",
+          "detail": "module.quarantine.0.detail",
           "effect": "slowTime",
           "value": 0.4
         },
         {
-          "name": "Rapid Isolation",
-          "detail": "Attack interval −8%",
+          "name": "module.quarantine.1.name",
+          "detail": "module.quarantine.1.detail",
           "effect": "period",
           "value": 0.08
         }
@@ -134,18 +134,18 @@
     },
     {
       "id": "arc",
-      "name": "Firewall",
-      "role": "Chains between targets",
+      "name": "agent.arc.name",
+      "role": "agent.arc.role",
       "modules": [
         {
-          "name": "Relay Node",
-          "detail": "One extra chain target",
+          "name": "module.arc.0.name",
+          "detail": "module.arc.0.detail",
           "effect": "chains",
           "value": 1
         },
         {
-          "name": "High Voltage",
-          "detail": "Base arc damage +12%",
+          "name": "module.arc.1.name",
+          "detail": "module.arc.1.detail",
           "effect": "damage",
           "value": 0.12
         }
@@ -153,18 +153,18 @@
     },
     {
       "id": "pulse",
-      "name": "Pulse",
-      "role": "Pushes threats back",
+      "name": "agent.pulse.name",
+      "role": "agent.pulse.role",
       "modules": [
         {
-          "name": "Wide Channel",
-          "detail": "Pulse radius +12%",
+          "name": "module.pulse.0.name",
+          "detail": "module.pulse.0.detail",
           "effect": "pulseRadius",
           "value": 0.12
         },
         {
-          "name": "Backpressure",
-          "detail": "Knockback +20%",
+          "name": "module.pulse.1.name",
+          "detail": "module.pulse.1.detail",
           "effect": "push",
           "value": 0.2
         }
@@ -172,18 +172,18 @@
     },
     {
       "id": "blaze",
-      "name": "Overheat",
-      "role": "Leaves burning zones",
+      "name": "agent.blaze.name",
+      "role": "agent.blaze.role",
       "modules": [
         {
-          "name": "Heat Spread",
-          "detail": "Burn zone radius +12%",
+          "name": "module.blaze.0.name",
+          "detail": "module.blaze.0.detail",
           "effect": "burnRadius",
           "value": 0.12
         },
         {
-          "name": "Afterburn",
-          "detail": "Direct burn lasts +0.50 s",
+          "name": "module.blaze.1.name",
+          "detail": "module.blaze.1.detail",
           "effect": "burnTime",
           "value": 0.5
         }
@@ -191,18 +191,18 @@
     },
     {
       "id": "scatter",
-      "name": "Packet Burst",
-      "role": "Close-range spread",
+      "name": "agent.scatter.name",
+      "role": "agent.scatter.role",
       "modules": [
         {
-          "name": "Dense Burst",
-          "detail": "Pellet damage +12%",
+          "name": "module.scatter.0.name",
+          "detail": "module.scatter.0.detail",
           "effect": "damage",
           "value": 0.12
         },
         {
-          "name": "Long Packet",
-          "detail": "Damage falloff distance +15%",
+          "name": "module.scatter.1.name",
+          "detail": "module.scatter.1.detail",
           "effect": "range",
           "value": 0.15
         }
@@ -210,18 +210,18 @@
     },
     {
       "id": "toxin",
-      "name": "Countervirus",
-      "role": "Corrupts threats over time",
+      "name": "agent.toxin.name",
+      "role": "agent.toxin.role",
       "modules": [
         {
-          "name": "Persistent Strain",
-          "detail": "Direct corruption lasts +0.50 s",
+          "name": "module.toxin.0.name",
+          "detail": "module.toxin.0.detail",
           "effect": "poisonTime",
           "value": 0.5
         },
         {
-          "name": "Concentrate",
-          "detail": "Direct corruption damage +15%",
+          "name": "module.toxin.1.name",
+          "detail": "module.toxin.1.detail",
           "effect": "poisonDamage",
           "value": 0.15
         }
@@ -232,8 +232,8 @@
     {
       "id": "attack",
       "branch": 0,
-      "name": "Signal Amplifier",
-      "detail": "Attack damage +3% per rank",
+      "name": "research.attack.name",
+      "detail": "research.attack.detail",
       "icon": "bolt",
       "value": 0.03,
       "costs": [
@@ -244,8 +244,8 @@
     {
       "id": "cooldown",
       "branch": 0,
-      "name": "Fast Channel",
-      "detail": "Attack interval −3% per rank",
+      "name": "research.cooldown.name",
+      "detail": "research.cooldown.detail",
       "icon": "speed",
       "value": 0.03,
       "costs": [
@@ -256,8 +256,8 @@
     {
       "id": "crit",
       "branch": 0,
-      "name": "Targeting",
-      "detail": "Crit chance +3 points per rank",
+      "name": "research.crit.name",
+      "detail": "research.crit.detail",
       "icon": "target",
       "value": 0.03,
       "costs": [
@@ -268,8 +268,8 @@
     {
       "id": "critical",
       "branch": 0,
-      "name": "Critical Impulse",
-      "detail": "Critical multiplier +0.15",
+      "name": "research.critical.name",
+      "detail": "research.critical.detail",
       "icon": "burst",
       "value": 0.15,
       "costs": [
@@ -279,8 +279,8 @@
     {
       "id": "core",
       "branch": 1,
-      "name": "Core Buffer",
-      "detail": "Starting core HP +50 per rank",
+      "name": "research.core.name",
+      "detail": "research.core.detail",
       "icon": "battle",
       "value": 50,
       "costs": [
@@ -291,8 +291,8 @@
     {
       "id": "regen",
       "branch": 1,
-      "name": "Auto Repair",
-      "detail": "Core repair +0.5 HP/s per rank",
+      "name": "research.regen.name",
+      "detail": "research.regen.detail",
       "icon": "repair",
       "value": 0.5,
       "costs": [
@@ -303,8 +303,8 @@
     {
       "id": "reserve",
       "branch": 1,
-      "name": "Distributed Buffer",
-      "detail": "Core HP +25 per deployed agent and rank",
+      "name": "research.reserve.name",
+      "detail": "research.reserve.detail",
       "icon": "chip",
       "value": 25,
       "costs": [
@@ -315,8 +315,8 @@
     {
       "id": "emergency",
       "branch": 1,
-      "name": "Emergency Patch",
-      "detail": "Once per battle, repair 15% at 35% HP",
+      "name": "research.emergency.name",
+      "detail": "research.emergency.detail",
       "icon": "heart",
       "value": 0.15,
       "costs": [
@@ -326,8 +326,8 @@
     {
       "id": "xp",
       "branch": 2,
-      "name": "Telemetry",
-      "detail": "Battle XP +4% per rank",
+      "name": "research.xp.name",
+      "detail": "research.xp.detail",
       "icon": "scan",
       "value": 0.04,
       "costs": [
@@ -338,8 +338,8 @@
     {
       "id": "slowed",
       "branch": 2,
-      "name": "Exploit Analysis",
-      "detail": "Damage to slowed threats +5% per rank",
+      "name": "research.slowed.name",
+      "detail": "research.slowed.detail",
       "icon": "snow",
       "value": 0.05,
       "costs": [
@@ -350,8 +350,8 @@
     {
       "id": "boss",
       "branch": 2,
-      "name": "Boss Dossier",
-      "detail": "Damage to bosses +5% per rank",
+      "name": "research.boss.name",
+      "detail": "research.boss.detail",
       "icon": "boss",
       "value": 0.05,
       "costs": [
@@ -362,8 +362,8 @@
     {
       "id": "priority",
       "branch": 2,
-      "name": "Priority Target",
-      "detail": "Damage to elite threats and bosses +12%",
+      "name": "research.priority.name",
+      "detail": "research.priority.detail",
       "icon": "flag",
       "value": 0.12,
       "costs": [

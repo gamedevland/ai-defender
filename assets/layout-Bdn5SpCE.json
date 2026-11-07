@@ -140,7 +140,7 @@
                     "type": "Text",
                     "props": {
                       "anchor": { "x": 0.5, "y": 0.5 },
-                      "text": "SIGNAL LOCKED",
+                      "text": "",
                       "style": { "fontFamily": "Oxanium, sans-serif", "fontSize": 16, "fontWeight": "700", "fill": "#ff526d" }
                     }
                   },
@@ -148,7 +148,7 @@
                     "type": "Text",
                     "props": {
                       "anchor": { "x": 0.5, "y": 0.5 },
-                      "text": "SIGNAL LOCKED",
+                      "text": "",
                       "style": { "fontFamily": "Oxanium, sans-serif", "fontSize": 16, "fontWeight": "700", "fill": "#e4f5ff" }
                     }
                   }
@@ -1757,6 +1757,394 @@
           },
           "scan": {
             "type": "Graphics"
+          }
+        }
+      },
+      "languagePicker": {
+        "type": "Container",
+        "props": {
+          "visible": false
+        },
+        "components": {
+          "view": {
+            "type": "LanguagePicker",
+            "data": {
+              "scene": "hub",
+              "panelWidth": 480,
+              "rowHeight": 44,
+              "gap": 8,
+              "padding": 16,
+              "headerHeight": 72,
+              "footerHeight": 58,
+              "titleSize": 25,
+              "labelSize": 16,
+              "hintSize": 12,
+              "overlayAlpha": 0.9
+            }
+          }
+        },
+        "children": {
+          "surface": {
+            "type": "Graphics",
+            "props": {
+              "interactive": true
+            }
+          },
+          "title": {
+            "type": "Text",
+            "props": {
+              "anchor": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "text": "",
+              "style": {
+                "fontFamily": "Oxanium, NotoSans, sans-serif",
+                "fontWeight": "700",
+                "fontSize": 16,
+                "fill": "#e4f5ff"
+              }
+            }
+          },
+          "hint": {
+            "type": "Text",
+            "props": {
+              "anchor": {
+                "x": 0.0,
+                "y": 0.5
+              },
+              "text": "",
+              "style": {
+                "fontFamily": "Oxanium, NotoSans, sans-serif",
+                "fontWeight": "700",
+                "fontSize": 16,
+                "fill": "#e4f5ff"
+              }
+            }
+          },
+          "close": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language0": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language1": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language2": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language3": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language4": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language5": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language6": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language7": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language8": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language9": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
+          },
+          "language10": {
+            "type": "Container",
+            "children": {
+              "surface": {
+                "type": "Graphics",
+                "props": {
+                  "interactive": true
+                }
+              },
+              "label": {
+                "type": "Text",
+                "props": {
+                  "anchor": {
+                    "x": 0.0,
+                    "y": 0.5
+                  },
+                  "text": "",
+                  "style": {
+                    "fontFamily": "Oxanium, NotoSans, sans-serif",
+                    "fontWeight": "700",
+                    "fontSize": 16,
+                    "fill": "#e4f5ff"
+                  }
+                }
+              }
+            }
           }
         }
       }
