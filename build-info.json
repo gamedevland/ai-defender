@@ -1,9 +1,9 @@
 {
   "platform": "web",
-  "sourceCommit": "9f1077f0eae85514685e9121680f5245e3e65328",
-  "sourceTree": "f6bc28459d2cfa349e1e0d5b58d1eb739674c270",
+  "sourceCommit": "6531891accb4a8345d04a556cab4e9cc7577fc8a",
+  "sourceTree": "f21a477ada5aa295c472afe671999061ecd9fb07",
   "engineVersion": "0.0.11",
-  "builtAt": "2026-11-07T21:18:14.716639Z",
+  "builtAt": "2026-11-07T21:31:53.422744Z",
   "files": [
     {
       "path": "assets/Geometry-BTsANNHd.js",
@@ -61,7 +61,12 @@
       "sha256": "a8942fd030c580f7a4a95cb7830cbd8d67074c5d2a9d665dee8b3e7053c2db3b"
     },
     {
-      "path": "assets/campaign-CB79nKeN.json",
+      "path": "assets/campaign-BKLW0NWx.json",
+      "bytes": 201634,
+      "sha256": "78578b9b22ab3cab29e27c48517d4d72fae1b6e4eeb52bd159b781df03ebfba6"
+    },
+    {
+      "path": "assets/campaign.v2-CB79nKeN.json",
       "bytes": 115394,
       "sha256": "3cd566928e220226dcd9dd31591f30fa95617f2b8d12f20448cc7a57db0709c9"
     },
@@ -106,9 +111,9 @@
       "sha256": "b7798e4bb2943e286c8b09759ca5c2da05897825793e14404b32656e850f4929"
     },
     {
-      "path": "assets/index-BjpoFz9Y.js",
-      "bytes": 1491411,
-      "sha256": "a20680a6cf85400477c21188e500af9a519abe8f58ca44be67bf69c6f7e00fe2"
+      "path": "assets/index-CmFOF_sm.js",
+      "bytes": 1492158,
+      "sha256": "38603593757e266505ffffff4d6a6889b221a546e4d112d91634635f314e9918"
     },
     {
       "path": "assets/init-BIZPZONn.js",
@@ -193,7 +198,7 @@
     {
       "path": "index.html",
       "bytes": 752,
-      "sha256": "61897d26474bbf59437cf075a3f49181783c87cf4ca75872abce7acf72124ca4"
+      "sha256": "5d3c4a6f4d79a885c2f969dde14d894c73ce22e7133c0d1d45b3d9137ef0a2d3"
     },
     {
       "path": "licenses/Kenney-audio.txt",
