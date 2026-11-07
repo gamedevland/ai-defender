@@ -227,6 +227,7 @@
   "battle.double": "クレジット×2",
   "card.newAgent": "新エージェント",
   "card.channel": "チャンネル+1",
+  "card.scannerFocus": "ビーム集中 +{n}% · 最大{targets}体",
   "card.shot": "弾数+1 · ダメージ−16%",
   "card.pierce": "貫通+1",
   "card.ultimate": "アルティメットプロトコル",

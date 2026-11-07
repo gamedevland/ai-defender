@@ -227,6 +227,7 @@
   "battle.double": "Кредиты ×2",
   "card.newAgent": "Новый агент",
   "card.channel": "+1 канал",
+  "card.scannerFocus": "Фокус луча +{n}% · до {targets} целей",
   "card.shot": "+1 выстрел · Урон −16%",
   "card.pierce": "Пробитие +1",
   "card.ultimate": "Ультимативный протокол",

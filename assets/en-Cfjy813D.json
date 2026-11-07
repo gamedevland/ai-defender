@@ -227,6 +227,7 @@
   "battle.double": "Credits ×2",
   "card.newAgent": "New agent",
   "card.channel": "+1 channel",
+  "card.scannerFocus": "Beam focus +{n}% · up to {targets} targets",
   "card.shot": "+1 shot · DMG −16%",
   "card.pierce": "Penetration +1",
   "card.ultimate": "Ultimate protocol",

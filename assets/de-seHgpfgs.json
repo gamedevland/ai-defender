@@ -227,6 +227,7 @@
   "battle.double": "Credits ×2",
   "card.newAgent": "Neuer Agent",
   "card.channel": "+1 Kanal",
+  "card.scannerFocus": "Strahlfokus +{n}% · bis zu {targets} Ziele",
   "card.shot": "+1 Schuss · SCH −16%",
   "card.pierce": "Durchschlag +1",
   "card.ultimate": "Ultimatives Protokoll",

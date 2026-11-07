@@ -227,6 +227,7 @@
   "battle.double": "Kredi ×2",
   "card.newAgent": "Yeni ajan",
   "card.channel": "+1 kanal",
+  "card.scannerFocus": "Işın odağı +%{n} · en fazla {targets} hedef",
   "card.shot": "+1 atış · Hasar −%16",
   "card.pierce": "Delme +1",
   "card.ultimate": "Nihai protokol",

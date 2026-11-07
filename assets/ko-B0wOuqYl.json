@@ -227,6 +227,7 @@
   "battle.double": "크레딧 ×2",
   "card.newAgent": "신규 요원",
   "card.channel": "채널 +1",
+  "card.scannerFocus": "빔 집중 +{n}% · 최대 {targets}개 대상",
   "card.shot": "발사 +1 · 피해 −16%",
   "card.pierce": "관통 +1",
   "card.ultimate": "궁극 프로토콜",

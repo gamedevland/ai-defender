@@ -227,6 +227,7 @@
   "battle.double": "信用点×2",
   "card.newAgent": "新特工",
   "card.channel": "通道+1",
+  "card.scannerFocus": "光束聚焦 +{n}% · 最多 {targets} 个目标",
   "card.shot": "射击次数+1 · 伤害−16%",
   "card.pierce": "穿透+1",
   "card.ultimate": "终极协议",
