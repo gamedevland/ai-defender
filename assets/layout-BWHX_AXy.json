@@ -61,6 +61,15 @@
               }
             }
           },
+          "walletCredits": { "type": "Graphics", "props": { "interactive": true } },
+          "walletChips": { "type": "Graphics", "props": { "interactive": true } },
+          "walletComponents": { "type": "Graphics", "props": { "interactive": true } },
+          "walletSource": { "type": "Graphics", "props": { "interactive": true } },
+          "walletSourceLabel": {
+            "type": "Text",
+            "props": { "anchor": { "x": 0, "y": 0.5 }, "text": "",
+              "style": { "fontFamily": "Oxanium, sans-serif", "fontSize": 11, "fontWeight": "700", "fill": "#e4f5ff" } }
+          },
           "credits": {
             "type": "Text",
             "props": {
@@ -224,6 +233,21 @@
                     "fill": "#e4f5ff"
                   }
                 }
+              },
+              "branchOffense": {
+                "type": "Text",
+                "props": { "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                  "style": { "fontFamily": "Oxanium, sans-serif", "fontSize": 13, "fontWeight": "700", "align": "center", "fill": "#e4f5ff" } }
+              },
+              "branchDefense": {
+                "type": "Text",
+                "props": { "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                  "style": { "fontFamily": "Oxanium, sans-serif", "fontSize": 13, "fontWeight": "700", "align": "center", "fill": "#e4f5ff" } }
+              },
+              "branchAnalytics": {
+                "type": "Text",
+                "props": { "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                  "style": { "fontFamily": "Oxanium, sans-serif", "fontSize": 13, "fontWeight": "700", "align": "center", "fill": "#e4f5ff" } }
               },
               "sectionB": {
                 "type": "Text",
@@ -1007,6 +1031,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1063,6 +1093,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1119,6 +1155,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1175,6 +1217,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1231,6 +1279,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1287,6 +1341,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1343,6 +1403,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1399,6 +1465,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1455,6 +1527,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1511,6 +1589,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1567,6 +1651,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {
@@ -1623,6 +1713,12 @@
                   "surface": {
                     "type": "Graphics"
                   },
+                  "signal": {
+                    "type": "Text",
+                    "props": { "visible": false, "anchor": { "x": 0.5, "y": 0.5 }, "text": "",
+                      "style": { "fontFamily": "Oxanium, monospace", "fontSize": 8, "lineHeight": 8, "align": "center", "fontWeight": "700", "fill": "#70ccff" } }
+                  },
+                  "interference": { "type": "Graphics" },
                   "label": {
                     "type": "Text",
                     "props": {

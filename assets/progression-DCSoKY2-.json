@@ -1,0 +1,374 @@
+{
+  "waveBands": [
+    {
+      "through": 1,
+      "waves": 4
+    },
+    {
+      "through": 2,
+      "waves": 5
+    },
+    {
+      "through": 3,
+      "waves": 6
+    },
+    {
+      "through": 4,
+      "waves": 7
+    },
+    {
+      "through": 5,
+      "waves": 8
+    },
+    {
+      "through": 6,
+      "waves": 9
+    },
+    {
+      "through": 10,
+      "waves": 10
+    },
+    {
+      "through": 15,
+      "waves": 11
+    },
+    {
+      "through": 22,
+      "waves": 12
+    },
+    {
+      "through": 30,
+      "waves": 13
+    },
+    {
+      "through": 40,
+      "waves": 14
+    },
+    {
+      "through": 53,
+      "waves": 15
+    }
+  ],
+  "softwareAt": 2,
+  "modulesAt": 6,
+  "questsAt": 8,
+  "boostsAt": 10,
+  "lastChipBattle": 52,
+  "moduleCost": 2,
+  "componentCredits": 100,
+  "agentPrices": [
+    120,
+    190,
+    300,
+    450,
+    650,
+    850
+  ],
+  "firstCredits": 180,
+  "creditStep": 25,
+  "waveCreditStep": 5,
+  "retryFraction": 0.4,
+  "defeatFraction": 0.45,
+  "milestoneFraction": 0.6,
+  "trainingWaves": [
+    2,
+    3
+  ],
+  "agents": [
+    {
+      "id": "sentinel",
+      "name": "Interceptor",
+      "role": "Precision pulses",
+      "modules": [
+        {
+          "name": "Packet Piercer",
+          "detail": "One extra target per shot",
+          "effect": "pierce",
+          "value": 1
+        },
+        {
+          "name": "Pulse Drive",
+          "detail": "Attack interval −8%",
+          "effect": "period",
+          "value": 0.08
+        }
+      ]
+    },
+    {
+      "id": "scanner",
+      "name": "Scanner",
+      "role": "Focused tracking beam",
+      "modules": [
+        {
+          "name": "Beam Focus",
+          "detail": "Damage per beam tick +12%",
+          "effect": "damage",
+          "value": 0.12
+        },
+        {
+          "name": "Target Lock",
+          "detail": "Beam duration +0.20 s",
+          "effect": "beamTime",
+          "value": 0.2
+        }
+      ]
+    },
+    {
+      "id": "quarantine",
+      "name": "Quarantine",
+      "role": "Slows incoming threats",
+      "modules": [
+        {
+          "name": "Isolation",
+          "detail": "Direct slow lasts +0.40 s",
+          "effect": "slowTime",
+          "value": 0.4
+        },
+        {
+          "name": "Rapid Isolation",
+          "detail": "Attack interval −8%",
+          "effect": "period",
+          "value": 0.08
+        }
+      ]
+    },
+    {
+      "id": "arc",
+      "name": "Firewall",
+      "role": "Chains between targets",
+      "modules": [
+        {
+          "name": "Relay Node",
+          "detail": "One extra chain target",
+          "effect": "chains",
+          "value": 1
+        },
+        {
+          "name": "High Voltage",
+          "detail": "Base arc damage +12%",
+          "effect": "damage",
+          "value": 0.12
+        }
+      ]
+    },
+    {
+      "id": "pulse",
+      "name": "Pulse",
+      "role": "Pushes threats back",
+      "modules": [
+        {
+          "name": "Wide Channel",
+          "detail": "Pulse radius +12%",
+          "effect": "pulseRadius",
+          "value": 0.12
+        },
+        {
+          "name": "Backpressure",
+          "detail": "Knockback +20%",
+          "effect": "push",
+          "value": 0.2
+        }
+      ]
+    },
+    {
+      "id": "blaze",
+      "name": "Overheat",
+      "role": "Leaves burning zones",
+      "modules": [
+        {
+          "name": "Heat Spread",
+          "detail": "Burn zone radius +12%",
+          "effect": "burnRadius",
+          "value": 0.12
+        },
+        {
+          "name": "Afterburn",
+          "detail": "Direct burn lasts +0.50 s",
+          "effect": "burnTime",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "id": "scatter",
+      "name": "Packet Burst",
+      "role": "Close-range spread",
+      "modules": [
+        {
+          "name": "Dense Burst",
+          "detail": "Pellet damage +12%",
+          "effect": "damage",
+          "value": 0.12
+        },
+        {
+          "name": "Long Packet",
+          "detail": "Damage falloff distance +15%",
+          "effect": "range",
+          "value": 0.15
+        }
+      ]
+    },
+    {
+      "id": "toxin",
+      "name": "Countervirus",
+      "role": "Corrupts threats over time",
+      "modules": [
+        {
+          "name": "Persistent Strain",
+          "detail": "Direct corruption lasts +0.50 s",
+          "effect": "poisonTime",
+          "value": 0.5
+        },
+        {
+          "name": "Concentrate",
+          "detail": "Direct corruption damage +15%",
+          "effect": "poisonDamage",
+          "value": 0.15
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "attack",
+      "branch": 0,
+      "name": "Signal Amplifier",
+      "detail": "Attack damage +3% per rank",
+      "icon": "bolt",
+      "value": 0.03,
+      "costs": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cooldown",
+      "branch": 0,
+      "name": "Fast Channel",
+      "detail": "Attack interval −3% per rank",
+      "icon": "speed",
+      "value": 0.03,
+      "costs": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "crit",
+      "branch": 0,
+      "name": "Targeting",
+      "detail": "Crit chance +3 points per rank",
+      "icon": "target",
+      "value": 0.03,
+      "costs": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "critical",
+      "branch": 0,
+      "name": "Critical Impulse",
+      "detail": "Critical multiplier +0.15",
+      "icon": "burst",
+      "value": 0.15,
+      "costs": [
+        4
+      ]
+    },
+    {
+      "id": "core",
+      "branch": 1,
+      "name": "Core Buffer",
+      "detail": "Starting core HP +50 per rank",
+      "icon": "battle",
+      "value": 50,
+      "costs": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "regen",
+      "branch": 1,
+      "name": "Auto Repair",
+      "detail": "Core repair +0.5 HP/s per rank",
+      "icon": "repair",
+      "value": 0.5,
+      "costs": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "reserve",
+      "branch": 1,
+      "name": "Distributed Buffer",
+      "detail": "Core HP +25 per deployed agent and rank",
+      "icon": "chip",
+      "value": 25,
+      "costs": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "emergency",
+      "branch": 1,
+      "name": "Emergency Patch",
+      "detail": "Once per battle, repair 15% at 35% HP",
+      "icon": "heart",
+      "value": 0.15,
+      "costs": [
+        4
+      ]
+    },
+    {
+      "id": "xp",
+      "branch": 2,
+      "name": "Telemetry",
+      "detail": "Battle XP +4% per rank",
+      "icon": "scan",
+      "value": 0.04,
+      "costs": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "slowed",
+      "branch": 2,
+      "name": "Exploit Analysis",
+      "detail": "Damage to slowed threats +5% per rank",
+      "icon": "snow",
+      "value": 0.05,
+      "costs": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "boss",
+      "branch": 2,
+      "name": "Boss Dossier",
+      "detail": "Damage to bosses +5% per rank",
+      "icon": "boss",
+      "value": 0.05,
+      "costs": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "priority",
+      "branch": 2,
+      "name": "Priority Target",
+      "detail": "Damage to elite threats and bosses +12%",
+      "icon": "flag",
+      "value": 0.12,
+      "costs": [
+        4
+      ]
+    }
+  ]
+}
