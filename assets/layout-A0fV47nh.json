@@ -120,6 +120,12 @@
           },
           "pagePanel": {
             "type": "Container",
+            "components": {
+              "glitch": {
+                "type": "IdleGlitch",
+                "data": { "durationMs": 160, "minDelayMs": 4000, "spreadMs": 3000 }
+              }
+            },
             "actions": {
               "reveal": {
                 "type": "PanelReveal"
@@ -642,6 +648,12 @@
           },
           "primary": {
             "type": "Container",
+            "components": {
+              "glitch": {
+                "type": "IdleGlitch",
+                "data": { "durationMs": 160, "minDelayMs": 4000, "spreadMs": 3000 }
+              }
+            },
             "children": {
               "surface": {
                 "type": "Graphics",
