@@ -220,7 +220,7 @@
           "view": {
             "type": "BattleOverlay"
           },
-          "glitch": { "type": "IdleGlitch", "data": { "minDelayMs": 4000, "spreadMs": 3000 } }
+          "glitch": { "type": "IdleGlitch" }
         },
         "children": {
           "dim": {
@@ -497,18 +497,58 @@
                     }
                   },
                   "reward": {
-                    "type": "Text",
-                    "props": {
-                      "anchor": {
-                        "x": 0,
-                        "y": 0.5
+                    "type": "Container",
+                    "children": {
+                      "icons": {
+                        "type": "Graphics"
                       },
-                      "text": "",
-                      "style": {
-                        "fontFamily": "Oxanium, sans-serif",
-                        "fontSize": 16,
-                        "fontWeight": "700",
-                        "fill": "#e4f5ff"
+                      "credits": {
+                        "type": "Text",
+                        "props": {
+                          "anchor": {
+                            "x": 0,
+                            "y": 0.5
+                          },
+                          "text": "",
+                          "style": {
+                            "fontFamily": "Oxanium, sans-serif",
+                            "fontSize": 16,
+                            "fontWeight": "700",
+                            "fill": "#e4f5ff"
+                          }
+                        }
+                      },
+                      "chips": {
+                        "type": "Text",
+                        "props": {
+                          "anchor": {
+                            "x": 0,
+                            "y": 0.5
+                          },
+                          "text": "",
+                          "style": {
+                            "fontFamily": "Oxanium, sans-serif",
+                            "fontSize": 16,
+                            "fontWeight": "700",
+                            "fill": "#e4f5ff"
+                          }
+                        }
+                      },
+                      "components": {
+                        "type": "Text",
+                        "props": {
+                          "anchor": {
+                            "x": 0,
+                            "y": 0.5
+                          },
+                          "text": "",
+                          "style": {
+                            "fontFamily": "Oxanium, sans-serif",
+                            "fontSize": 16,
+                            "fontWeight": "700",
+                            "fill": "#e4f5ff"
+                          }
+                        }
                       }
                     }
                   },

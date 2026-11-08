@@ -22,6 +22,10 @@
         "components": {
           "view": {
             "type": "HubConsole"
+          },
+          "glitch": {
+            "type": "IdleGlitch",
+            "data": { "durationMs": 500, "minDelayMs": 4000, "spreadMs": 3000 }
           }
         },
         "children": {
@@ -119,12 +123,6 @@
           },
           "pagePanel": {
             "type": "Container",
-            "components": {
-              "glitch": {
-                "type": "IdleGlitch",
-                "data": { "minDelayMs": 4000, "spreadMs": 3000 }
-              }
-            },
             "actions": {
               "reveal": {
                 "type": "PanelReveal"
