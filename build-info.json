@@ -1,9 +1,9 @@
 {
   "platform": "web",
-  "sourceCommit": "6f2f9ab1ca6949af54aa0cddc2210db54b524e5d",
-  "sourceTree": "37d2a7750c813386c07b85ff5f65271228790aa4",
+  "sourceCommit": "bfbe41bfc34ac7868c96f206ecccd6617fd3ebee",
+  "sourceTree": "72f5c8d116220eae943bb930997c1ff66d7b1c5f",
   "engineVersion": "0.0.11",
-  "builtAt": "2026-11-08T11:46:17.616Z",
+  "builtAt": "2026-11-08T12:00:04.400Z",
   "files": [
     {
       "path": "assets/Geometry-BTsANNHd.js",
@@ -61,9 +61,9 @@
       "sha256": "a8942fd030c580f7a4a95cb7830cbd8d67074c5d2a9d665dee8b3e7053c2db3b"
     },
     {
-      "path": "assets/campaign-DoJV6i9R.json",
-      "bytes": 218036,
-      "sha256": "579cd3dcc08797e0575e76882fb2c9baa423a0146594dd67d4a09ca5c7a99251"
+      "path": "assets/campaign-DSKOyz4s.json",
+      "bytes": 218048,
+      "sha256": "06ba4ace70997db9466e543478e38d29c785afc7fb218697d00c200b662cc1ce"
     },
     {
       "path": "assets/campaign.v2-CB79nKeN.json",
@@ -74,6 +74,11 @@
       "path": "assets/campaign.v3-BKLW0NWx.json",
       "bytes": 201634,
       "sha256": "78578b9b22ab3cab29e27c48517d4d72fae1b6e4eeb52bd159b781df03ebfba6"
+    },
+    {
+      "path": "assets/campaign.v4-DoJV6i9R.json",
+      "bytes": 218036,
+      "sha256": "579cd3dcc08797e0575e76882fb2c9baa423a0146594dd67d4a09ca5c7a99251"
     },
     {
       "path": "assets/de-C3XWxXOF.json",
@@ -116,9 +121,9 @@
       "sha256": "b7798e4bb2943e286c8b09759ca5c2da05897825793e14404b32656e850f4929"
     },
     {
-      "path": "assets/index-CY_CaonX.js",
-      "bytes": 1527908,
-      "sha256": "8c2d7825818d0d0dccbf48f848bac7645ddd8843c6558b1941e5f43d4063869f"
+      "path": "assets/index-CMUROBmc.js",
+      "bytes": 1527403,
+      "sha256": "e6b2955f78503f284f5392ba8b8f896bd8dee375b1dbeada78fc3876a5b11bef"
     },
     {
       "path": "assets/init-BIZPZONn.js",
@@ -141,14 +146,14 @@
       "sha256": "ac61b3e519a2d5694f5bb01835da029dffa4d7b6b6e55a6c161192fc266fcb85"
     },
     {
-      "path": "assets/layout-A0fV47nh.json",
-      "bytes": 71202,
-      "sha256": "0e8f85b5838bedff17cb6b96fc4952f403f9d39ac58d16bd36687af8e5686c76"
+      "path": "assets/layout-DkzOSuei.json",
+      "bytes": 33480,
+      "sha256": "1076ae97b2215409f96bad9e8ac92ef6a35a16934e37a304c450cacccaffc74b"
     },
     {
-      "path": "assets/layout-CPpMFzUs.json",
-      "bytes": 33380,
-      "sha256": "591f9386725feca0aaa5b765939a3c92b433a9f1682a3345a3ac885f5024dfb8"
+      "path": "assets/layout-d17mtqop.json",
+      "bytes": 70930,
+      "sha256": "243b0285381ae93a0671d5deda28c38094b2956e495e07503e9f42f14d9db6d2"
     },
     {
       "path": "assets/music-Dm2mK6zw.mp3",
@@ -203,7 +208,7 @@
     {
       "path": "index.html",
       "bytes": 752,
-      "sha256": "61b9875da8ede595542eaf9dc1321677b40102742a67c4079ffc7ae7a4a865b2"
+      "sha256": "413ae832f66794602b352506d20b69e49ee2913656b8dea6a3a2dba02605b45d"
     },
     {
       "path": "licenses/Kenney-audio.txt",

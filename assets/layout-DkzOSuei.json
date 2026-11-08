@@ -46,7 +46,7 @@
           "view": {
             "type": "BattleHud"
           },
-          "glitch": { "type": "IdleGlitch" }
+          "glitch": { "type": "IdleGlitch", "data": { "minDelayMs": 4000, "spreadMs": 3000 } }
         },
         "children": {
           "panels": {
@@ -220,7 +220,7 @@
           "view": {
             "type": "BattleOverlay"
           },
-          "glitch": { "type": "IdleGlitch" }
+          "glitch": { "type": "IdleGlitch", "data": { "minDelayMs": 4000, "spreadMs": 3000 } }
         },
         "children": {
           "dim": {
