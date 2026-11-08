@@ -52,8 +52,8 @@
   "rewardedFromBattle": 3,
   "softwareAt": 2,
   "modulesAt": 6,
-  "questsAt": 8,
-  "boostsAt": 10,
+  "questsAt": 4,
+  "boostsAt": 5,
   "lastChipBattle": 52,
   "moduleCost": 2,
   "componentCredits": 100,
@@ -70,7 +70,6 @@
   "waveCreditStep": 5,
   "retryFraction": 0.4,
   "defeatFraction": 0.45,
-  "milestoneFraction": 0.6,
   "trainingWaves": [
     2,
     3
