@@ -1,9 +1,9 @@
 {
   "platform": "web",
-  "sourceCommit": "5dcd85b206657d3e99a65a0bc8df2b85dd0e6823",
-  "sourceTree": "92788034c183a51307e66eb7aca7aca42a110f34",
+  "sourceCommit": "9281c565575f04bd55a0bbc603c330e3fbedce9b",
+  "sourceTree": "790c43a32fb44721b26aad0a6b1a8f62dd966091",
   "engineVersion": "0.0.11+layout.1",
-  "builtAt": "2026-11-08T13:18:57.353569Z",
+  "builtAt": "2026-11-08T15:17:31.168524Z",
   "files": [
     {
       "path": "assets/Geometry-BTsANNHd.js",
@@ -61,9 +61,9 @@
       "sha256": "a8942fd030c580f7a4a95cb7830cbd8d67074c5d2a9d665dee8b3e7053c2db3b"
     },
     {
-      "path": "assets/campaign-D3pJeMMr.json",
-      "bytes": 215114,
-      "sha256": "5b612fd8ccb2014119c173acdaf7aa022bdc043cacede639e4554fed27198015"
+      "path": "assets/campaign-D9GbwJj0.json",
+      "bytes": 214319,
+      "sha256": "b5d2fd2320e38a7521e36de3ee514e3e0e685eaecce4d6a19d11462434c2db4c"
     },
     {
       "path": "assets/campaign.v2-CB79nKeN.json",
@@ -84,6 +84,11 @@
       "path": "assets/campaign.v5-DSKOyz4s.json",
       "bytes": 218048,
       "sha256": "06ba4ace70997db9466e543478e38d29c785afc7fb218697d00c200b662cc1ce"
+    },
+    {
+      "path": "assets/campaign.v6-D3pJeMMr.json",
+      "bytes": 215114,
+      "sha256": "5b612fd8ccb2014119c173acdaf7aa022bdc043cacede639e4554fed27198015"
     },
     {
       "path": "assets/de-C3XWxXOF.json",
@@ -126,9 +131,9 @@
       "sha256": "b7798e4bb2943e286c8b09759ca5c2da05897825793e14404b32656e850f4929"
     },
     {
-      "path": "assets/index-DsPkCpKh.js",
-      "bytes": 1530827,
-      "sha256": "c9c3666b9075a4fe8ca3b865c3b7151de6e6b1e67f2e2dc7fd73c31465689a07"
+      "path": "assets/index-Bxe7FRLK.js",
+      "bytes": 1537434,
+      "sha256": "7cf4d0533fdb2e52b71724971b896cf72e0adc1110733fb3db235a0d093cea60"
     },
     {
       "path": "assets/init-BIZPZONn.js",
@@ -213,7 +218,7 @@
     {
       "path": "index.html",
       "bytes": 752,
-      "sha256": "bdc1ed7b27c2c7fb314051579f5fd4e465dba41d7197c4907f8269365979fef7"
+      "sha256": "22fc1067e18259908b7cc6772751c2fbe23846665842c2d1439f4dcfcd5fec28"
     },
     {
       "path": "licenses/Kenney-audio.txt",
