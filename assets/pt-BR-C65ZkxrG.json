@@ -276,5 +276,6 @@
   "hud.protocol": "Protocolo após a onda {n}",
   "hud.xp": "EXP",
   "hud.core": "INTEGRIDADE DO NÚCLEO",
-  "common.buy": "Comprar"
+  "common.buy": "Comprar",
+  "guide.battleReady": "Tudo pronto para a batalha!"
 }

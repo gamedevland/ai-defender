@@ -276,5 +276,6 @@
   "hud.protocol": "第{n}波后选择协议",
   "hud.xp": "经验",
   "hud.core": "核心耐久",
-  "common.buy": "购买"
+  "common.buy": "购买",
+  "guide.battleReady": "准备就绪, 开始战斗!"
 }

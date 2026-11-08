@@ -276,5 +276,6 @@
   "hud.protocol": "ウェーブ{n}後にプロトコル",
   "hud.xp": "経験値",
   "hud.core": "コア耐久値",
-  "common.buy": "購入"
+  "common.buy": "購入",
+  "guide.battleReady": "準備完了! バトルを開始!"
 }

@@ -276,5 +276,6 @@
   "hud.protocol": "웨이브 {n} 이후 프로토콜",
   "hud.xp": "경험치",
   "hud.core": "코어 내구도",
-  "common.buy": "구매"
+  "common.buy": "구매",
+  "guide.battleReady": "준비 완료! 전투를 시작하세요!"
 }

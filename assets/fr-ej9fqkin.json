@@ -276,5 +276,6 @@
   "hud.protocol": "Protocole après la vague {n}",
   "hud.xp": "EXP",
   "hud.core": "INTÉGRITÉ DU NOYAU",
-  "common.buy": "Acheter"
+  "common.buy": "Acheter",
+  "guide.battleReady": "Tout est prêt : au combat !"
 }

@@ -276,5 +276,6 @@
   "hud.protocol": "Протокол после волны {n}",
   "hud.xp": "ОП",
   "hud.core": "ПРОЧНОСТЬ ЯДРА",
-  "common.buy": "Купить"
+  "common.buy": "Купить",
+  "guide.battleReady": "Всё готово — пора в бой!"
 }

@@ -276,5 +276,6 @@
   "hud.protocol": "Protocolo tras la oleada {n}",
   "hud.xp": "EXP",
   "hud.core": "INTEGRIDAD DEL NÚCLEO",
-  "common.buy": "Comprar"
+  "common.buy": "Comprar",
+  "guide.battleReady": "Todo listo para la batalla!"
 }

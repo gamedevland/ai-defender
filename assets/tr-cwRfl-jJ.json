@@ -276,5 +276,6 @@
   "hud.protocol": "Dalga {n} sonrası protokol",
   "hud.xp": "TP",
   "hud.core": "ÇEKİRDEK BÜTÜNLÜĞÜ",
-  "common.buy": "Satın al"
+  "common.buy": "Satın al",
+  "guide.battleReady": "Her şey hazır — savaş zamanı!"
 }

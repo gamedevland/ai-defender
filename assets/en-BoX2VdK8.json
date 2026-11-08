@@ -276,5 +276,6 @@
   "hud.protocol": "Protocol after wave {n}",
   "hud.xp": "XP",
   "hud.core": "CORE INTEGRITY",
-  "common.buy": "Buy"
+  "common.buy": "Buy",
+  "guide.battleReady": "All set — time for battle!"
 }

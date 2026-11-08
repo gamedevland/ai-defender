@@ -276,5 +276,6 @@
   "hud.protocol": "Protokoll nach Welle {n}",
   "hud.xp": "EP",
   "hud.core": "KERNINTEGRITÄT",
-  "common.buy": "Kaufen"
+  "common.buy": "Kaufen",
+  "guide.battleReady": "Alles bereit — auf in den Kampf!"
 }
