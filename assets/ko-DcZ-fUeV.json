@@ -24,6 +24,7 @@
   "wallet.componentsHint": "전투 06 이후 첫 승리 → 모듈 구매",
   "campaign.cleared": "완료",
   "campaign.live": "활성 구역",
+  "signal.lost": "신호 손실",
   "signal.locked": "신호 잠김",
   "boot.initializing": "방어 시스템 초기화 중",
   "boot.loading": "불러오는 중…",
@@ -149,7 +150,8 @@
   "agent.max": "최대 레벨",
   "agent.upgrade": "Lv {n}로 강화 · {cost} CR",
   "agent.short": "크레딧 {n} 추가 필요",
-  "module.header": "하드웨어 · 활성 모듈 1개",
+  "module.buyAction": "구매 및 장착",
+  "module.header": "장비",
   "module.ready": "장착 가능",
   "module.short": "부품 {n}개 필요",
   "module.cost": "부품: {n}",
@@ -273,5 +275,6 @@
   "hud.wave": "웨이브 {n} / {total}",
   "hud.protocol": "웨이브 {n} 이후 프로토콜",
   "hud.xp": "경험치",
-  "hud.core": "코어 내구도"
+  "hud.core": "코어 내구도",
+  "common.buy": "구매"
 }

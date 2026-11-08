@@ -24,6 +24,7 @@
   "wallet.componentsHint": "Premières victoires dès le Combat 06 → acheter des modules",
   "campaign.cleared": "TERMINÉ",
   "campaign.live": "SECTEUR ACTIF",
+  "signal.lost": "SIGNAL PERDU",
   "signal.locked": "SIGNAL VERROUILLÉ",
   "boot.initializing": "INITIALISATION DU SYSTÈME DE DÉFENSE",
   "boot.loading": "Chargement…",
@@ -149,7 +150,8 @@
   "agent.max": "Niveau maximal",
   "agent.upgrade": "Améliorer au niv. {n} · {cost} CR",
   "agent.short": "Il manque {n} crédits",
-  "module.header": "MATÉRIEL · UN MODULE ACTIF",
+  "module.buyAction": "Acheter et équiper",
+  "module.header": "ÉQUIPEMENT",
   "module.ready": "Prêt à équiper",
   "module.short": "Il faut {n} composants",
   "module.cost": "Composants : {n}",
@@ -273,5 +275,6 @@
   "hud.wave": "VAGUE {n} / {total}",
   "hud.protocol": "Protocole après la vague {n}",
   "hud.xp": "EXP",
-  "hud.core": "INTÉGRITÉ DU NOYAU"
+  "hud.core": "INTÉGRITÉ DU NOYAU",
+  "common.buy": "Acheter"
 }

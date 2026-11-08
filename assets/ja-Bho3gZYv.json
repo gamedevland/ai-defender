@@ -24,6 +24,7 @@
   "wallet.componentsHint": "バトル06以降の初勝利 → モジュール購入",
   "campaign.cleared": "クリア済み",
   "campaign.live": "稼働セクター",
+  "signal.lost": "信号消失",
   "signal.locked": "信号ロック中",
   "boot.initializing": "防衛システムを初期化中",
   "boot.loading": "読み込み中…",
@@ -149,7 +150,8 @@
   "agent.max": "最大レベル",
   "agent.upgrade": "Lv {n}に強化 · {cost} CR",
   "agent.short": "あと{n}クレジット必要",
-  "module.header": "ハードウェア · 有効モジュールは1個",
+  "module.buyAction": "購入して装備",
+  "module.header": "装備",
   "module.ready": "装備可能",
   "module.short": "パーツが{n}個必要",
   "module.cost": "パーツ：{n}",
@@ -273,5 +275,6 @@
   "hud.wave": "ウェーブ {n} / {total}",
   "hud.protocol": "ウェーブ{n}後にプロトコル",
   "hud.xp": "経験値",
-  "hud.core": "コア耐久値"
+  "hud.core": "コア耐久値",
+  "common.buy": "購入"
 }

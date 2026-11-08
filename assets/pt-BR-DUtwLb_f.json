@@ -24,6 +24,7 @@
   "wallet.componentsHint": "Primeiras vitórias a partir da Batalha 06 → compre módulos",
   "campaign.cleared": "CONCLUÍDO",
   "campaign.live": "SETOR ATIVO",
+  "signal.lost": "SINAL PERDIDO",
   "signal.locked": "SINAL BLOQUEADO",
   "boot.initializing": "INICIANDO SISTEMA DE DEFESA",
   "boot.loading": "Carregando…",
@@ -149,7 +150,8 @@
   "agent.max": "Nível máximo",
   "agent.upgrade": "Melhorar para Nv. {n} · {cost} CR",
   "agent.short": "Faltam {n} créditos",
-  "module.header": "HARDWARE · UM MÓDULO ATIVO",
+  "module.buyAction": "Comprar e equipar",
+  "module.header": "EQUIPAMENTO",
   "module.ready": "Pronto para equipar",
   "module.short": "Faltam {n} componentes",
   "module.cost": "Componentes: {n}",
@@ -273,5 +275,6 @@
   "hud.wave": "ONDA {n} / {total}",
   "hud.protocol": "Protocolo após a onda {n}",
   "hud.xp": "EXP",
-  "hud.core": "INTEGRIDADE DO NÚCLEO"
+  "hud.core": "INTEGRIDADE DO NÚCLEO",
+  "common.buy": "Comprar"
 }

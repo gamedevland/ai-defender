@@ -24,6 +24,7 @@
   "wallet.componentsHint": "Savaş 06'dan itibaren ilk zaferler → modül al",
   "campaign.cleared": "TAMAMLANDI",
   "campaign.live": "AKTİF SEKTÖR",
+  "signal.lost": "SİNYAL KAYIP",
   "signal.locked": "SİNYAL KİLİTLİ",
   "boot.initializing": "SAVUNMA SİSTEMİ BAŞLATILIYOR",
   "boot.loading": "Yükleniyor…",
@@ -149,7 +150,8 @@
   "agent.max": "En yüksek seviye",
   "agent.upgrade": "Sv. {n}'e geliştir · {cost} KR",
   "agent.short": "{n} kredi daha gerekli",
-  "module.header": "DONANIM · TEK AKTİF MODÜL",
+  "module.buyAction": "Satın al ve kuşan",
+  "module.header": "DONANIM",
   "module.ready": "Kuşanmaya hazır",
   "module.short": "{n} bileşen gerekli",
   "module.cost": "Bileşen: {n}",
@@ -273,5 +275,6 @@
   "hud.wave": "DALGA {n} / {total}",
   "hud.protocol": "Dalga {n} sonrası protokol",
   "hud.xp": "TP",
-  "hud.core": "ÇEKİRDEK BÜTÜNLÜĞÜ"
+  "hud.core": "ÇEKİRDEK BÜTÜNLÜĞÜ",
+  "common.buy": "Satın al"
 }

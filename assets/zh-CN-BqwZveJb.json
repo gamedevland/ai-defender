@@ -24,6 +24,7 @@
   "wallet.componentsHint": "第06场起的首次胜利 → 购买模块",
   "campaign.cleared": "已通关",
   "campaign.live": "当前区域",
+  "signal.lost": "信号丢失",
   "signal.locked": "信号已锁定",
   "boot.initializing": "正在初始化防御系统",
   "boot.loading": "加载中…",
@@ -149,7 +150,8 @@
   "agent.max": "已达最高等级",
   "agent.upgrade": "升至{n}级 · {cost}信用点",
   "agent.short": "还需{n}信用点",
-  "module.header": "硬件 · 仅可启用一个模块",
+  "module.buyAction": "购买并装备",
+  "module.header": "装备",
   "module.ready": "可装备",
   "module.short": "需要{n}个组件",
   "module.cost": "组件：{n}",
@@ -273,5 +275,6 @@
   "hud.wave": "第{n} / {total}波",
   "hud.protocol": "第{n}波后选择协议",
   "hud.xp": "经验",
-  "hud.core": "核心耐久"
+  "hud.core": "核心耐久",
+  "common.buy": "购买"
 }

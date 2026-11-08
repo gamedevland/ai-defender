@@ -24,6 +24,7 @@
   "wallet.componentsHint": "Prime vittorie dalla Battaglia 06 → acquista moduli",
   "campaign.cleared": "COMPLETATO",
   "campaign.live": "SETTORE ATTIVO",
+  "signal.lost": "SEGNALE PERSO",
   "signal.locked": "SEGNALE BLOCCATO",
   "boot.initializing": "INIZIALIZZAZIONE SISTEMA DI DIFESA",
   "boot.loading": "Caricamento…",
@@ -149,7 +150,8 @@
   "agent.max": "Livello massimo",
   "agent.upgrade": "Migliora a Liv. {n} · {cost} CR",
   "agent.short": "Servono altri {n} crediti",
-  "module.header": "HARDWARE · UN MODULO ATTIVO",
+  "module.buyAction": "Acquista ed equipaggia",
+  "module.header": "EQUIPAGGIAMENTO",
   "module.ready": "Pronto da equipaggiare",
   "module.short": "Servono {n} componenti",
   "module.cost": "Componenti: {n}",
@@ -273,5 +275,6 @@
   "hud.wave": "ONDATA {n} / {total}",
   "hud.protocol": "Protocollo dopo l'ondata {n}",
   "hud.xp": "ESP",
-  "hud.core": "INTEGRITÀ DEL NUCLEO"
+  "hud.core": "INTEGRITÀ DEL NUCLEO",
+  "common.buy": "Acquista"
 }

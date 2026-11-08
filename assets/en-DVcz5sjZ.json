@@ -24,6 +24,7 @@
   "wallet.componentsHint": "First wins from Battle 06 → buy modules",
   "campaign.cleared": "CLEARED",
   "campaign.live": "LIVE SECTOR",
+  "signal.lost": "SIGNAL LOST",
   "signal.locked": "SIGNAL LOCKED",
   "boot.initializing": "INITIALIZING DEFENSE SYSTEM",
   "boot.loading": "Loading…",
@@ -149,7 +150,8 @@
   "agent.max": "Maximum level",
   "agent.upgrade": "Upgrade to Lv {n} · {cost} CR",
   "agent.short": "Need {n} more credits",
-  "module.header": "HARDWARE · ONE ACTIVE MODULE",
+  "module.buyAction": "Buy & equip",
+  "module.header": "HARDWARE",
   "module.ready": "Ready to equip",
   "module.short": "Need {n} components",
   "module.cost": "Components: {n}",
@@ -273,5 +275,6 @@
   "hud.wave": "WAVE {n} / {total}",
   "hud.protocol": "Protocol after wave {n}",
   "hud.xp": "XP",
-  "hud.core": "CORE INTEGRITY"
+  "hud.core": "CORE INTEGRITY",
+  "common.buy": "Buy"
 }

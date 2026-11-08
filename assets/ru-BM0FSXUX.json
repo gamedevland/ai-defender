@@ -24,6 +24,7 @@
   "wallet.componentsHint": "Первые победы с боя 06 → покупка модулей",
   "campaign.cleared": "ЗАЧИЩЕНО",
   "campaign.live": "АКТИВНЫЙ СЕКТОР",
+  "signal.lost": "СИГНАЛ ПОТЕРЯН",
   "signal.locked": "СИГНАЛ ЗАКРЫТ",
   "boot.initializing": "ИНИЦИАЛИЗАЦИЯ СИСТЕМЫ ЗАЩИТЫ",
   "boot.loading": "Загрузка…",
@@ -149,7 +150,8 @@
   "agent.max": "Максимальный уровень",
   "agent.upgrade": "Улучшить до ур. {n} · {cost} КР",
   "agent.short": "Нужно ещё кредитов: {n}",
-  "module.header": "ОБОРУДОВАНИЕ · ОДИН АКТИВНЫЙ МОДУЛЬ",
+  "module.buyAction": "Купить и установить",
+  "module.header": "ОБОРУДОВАНИЕ",
   "module.ready": "Можно экипировать",
   "module.short": "Нужно компонентов: {n}",
   "module.cost": "Компоненты: {n}",
@@ -273,5 +275,6 @@
   "hud.wave": "ВОЛНА {n} / {total}",
   "hud.protocol": "Протокол после волны {n}",
   "hud.xp": "ОП",
-  "hud.core": "ПРОЧНОСТЬ ЯДРА"
+  "hud.core": "ПРОЧНОСТЬ ЯДРА",
+  "common.buy": "Купить"
 }
